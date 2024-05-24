@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Flexbox Layout */
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .column {
+    flex: 2;
+    margin: 10px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+  }
+  
+  /* Floated Image */
+  .float-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  .float-container img{
+    float: left;
+    margin-right: 20px;
+    width: 25%;
+  }
+
+  
+  .float-left {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+  }
+  
